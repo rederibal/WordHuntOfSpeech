@@ -55,4 +55,12 @@ public static class GameEvents
         if (OnClearSelection != null)
             OnClearSelection();
     }
+
+    public delegate void ToggleSoundFX();
+    public static event ToggleSoundFX OnToggleSoundFX;
+    public static void OnToggleSoundFXMethod()
+    {
+        if (OnToggleSoundFX != null)
+            OnToggleSoundFX();
+    }
 }
