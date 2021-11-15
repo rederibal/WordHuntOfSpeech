@@ -90,8 +90,8 @@ public class WordChecker : MonoBehaviour
 
 
         _assignedPoints++;    
-    
-       
+ 
+ 
     }
     private void CheckWord()
     {
@@ -99,7 +99,9 @@ public class WordChecker : MonoBehaviour
         {
             if (_word == searchingWord.Word)
             {
+                GameEvents.CorrectWordMethod(_word, _correctSquareList);
                 _word = string.Empty;
+                _correctSquareList.Clear();
                 return;
             }
         }
@@ -107,9 +109,9 @@ public class WordChecker : MonoBehaviour
 
     private bool IsPointOnTheRay(Ray currentRay, Vector3 point)
     {
-        var hits = Physics.RaycastAll(currentRay, 100f);
+        var hits = Physics.RaycastAll(currentRay, 100.0f);
 
-        for (int i = 0; i < hits.Length; i++)
+        for (int i =0; i < hits.Length; i++)
         {
             if(hits[i].transform.position == point)
                 return true;
@@ -134,7 +136,7 @@ public class WordChecker : MonoBehaviour
         {
             return _rayLeft;
         }
-        if(Mathf.Abs(direction.x - 1f) < tolerance && Mathf.Abs(direction.y - 1f) < tolerance)
+        if(Mathf.Abs(direction.x - 1f) < tolerance && Mathf.Abs(direction.y) < tolerance)
         {
             return _rayRight;
         }

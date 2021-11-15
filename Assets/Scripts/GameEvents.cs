@@ -15,7 +15,7 @@ public static class GameEvents
 
     //***********************************************
     public delegate void  DisableSquareSelection();
-    public static event EnableSquareSelection OnDisableSquareSelection;
+    public static event DisableSquareSelection OnDisableSquareSelection;
 
     public static void DisableSquareSelectionMethod()
     {
@@ -63,4 +63,16 @@ public static class GameEvents
         if (OnToggleSoundFX != null)
             OnToggleSoundFX();
     }
+    //****************************************************
+    public delegate void CorrectWord(string word, List<int> squareIndexes);
+    public static event CorrectWord OnCorrectWord;
+
+    public static void CorrectWordMethod(string word, List<int> squareIndexes)
+    {
+        if (OnCorrectWord != null)
+        {
+            OnCorrectWord(word, squareIndexes);
+        }
+    }
+    //****************************************************
 }

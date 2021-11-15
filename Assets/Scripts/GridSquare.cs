@@ -39,13 +39,13 @@ public class GridSquare : MonoBehaviour
      private void OnEnable()
     {
         GameEvents.OnEnableSquareSelection += OnEnableSquareSelection;
-        GameEvents.OnDisableSquareSelection += OnEnableSquareSelection;
+        GameEvents.OnDisableSquareSelection += OnDisableSquareSelection;
         GameEvents.OnSelectSquare += SelectSquare;
     }
 private void OnDisable()
 {
      GameEvents.OnEnableSquareSelection -= OnEnableSquareSelection;
-        GameEvents.OnDisableSquareSelection -= OnEnableSquareSelection;
+        GameEvents.OnDisableSquareSelection -= OnDisableSquareSelection;
         GameEvents.OnSelectSquare -= SelectSquare;
 }
 
