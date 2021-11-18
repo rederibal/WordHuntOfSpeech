@@ -74,9 +74,9 @@ public class SearchingWordsList : MonoBehaviour
             _words[index].transform.SetParent(this.transform);
             _words[index].GetComponent<RectTransform>().localScale = squareScale;
             _words[index].GetComponent<RectTransform>().localPosition = new Vector3(0f, 0f, 0f);
-            
-
+            _words[index].GetComponent<SearchingWord>().SetWord(currentGameData.selectedBoardData.SearchWords[index].Word);
         }
+        
     }
 
     private Vector3 GetSqaureScale(Vector3 defaultScale)
@@ -131,7 +131,7 @@ public class SearchingWordsList : MonoBehaviour
         if(totalSquareWidth > parentRect.rect.width)
             return true;
 
-        return false;   
+        return false;
     }
 
     private void SetWordsPosition()
@@ -154,7 +154,7 @@ public class SearchingWordsList : MonoBehaviour
                 columnNumber = 0;
                 rowNumber++;
             }
-            
+
             var positionX = startPosition.x + wordOffset.x * columnNumber;
             var positionY = startPosition.y - wordOffset.y * rowNumber;
 

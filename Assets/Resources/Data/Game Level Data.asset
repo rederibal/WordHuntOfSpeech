@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1cf10f1b975e24f9e5329336709bea, type: 3}
+  m_Name: Game Level Data
+  m_EditorClassIdentifier: 
+  data:
+  - categoryName: Noun
+    boardData:
+    - {fileID: 11400000, guid: 33be10e66ef6a154b9f8e6914e3f3da0, type: 2}
+  - categoryName: Verb
+    boardData:
+    - {fileID: 11400000, guid: e7bbf93d7d6824c47afb64a33a2db690, type: 2}
+  - categoryName: Pronoun
+    boardData:
+    - {fileID: 11400000, guid: 33be10e66ef6a154b9f8e6914e3f3da0, type: 2}
+  - categoryName: Adjective
+    boardData:
+    - {fileID: 11400000, guid: 33be10e66ef6a154b9f8e6914e3f3da0, type: 2}
+  - categoryName: Preposition
+    boardData:
+    - {fileID: 11400000, guid: 33be10e66ef6a154b9f8e6914e3f3da0, type: 2}

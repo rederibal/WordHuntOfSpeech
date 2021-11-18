@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c7937183c80c9d479d0da249b18dc7d, type: 3}
   m_Name: CurrentGameData
   m_EditorClassIdentifier: 
-  selectedCategoryName: 
-  selectedBoardData: {fileID: 11400000, guid: b8ef7b521dc62ad4f9616a024d5a1982, type: 2}
+  selectedCategoryName: Noun
+  selectedBoardData: {fileID: 11400000, guid: bf0f57f46c5ca5749861bc32ad58b611, type: 2}

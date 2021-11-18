@@ -41,12 +41,23 @@ public class GridSquare : MonoBehaviour
         GameEvents.OnEnableSquareSelection += OnEnableSquareSelection;
         GameEvents.OnDisableSquareSelection += OnDisableSquareSelection;
         GameEvents.OnSelectSquare += SelectSquare;
+        GameEvents.OnCorrectWord += CorrectWord;
     }
 private void OnDisable()
 {
      GameEvents.OnEnableSquareSelection -= OnEnableSquareSelection;
         GameEvents.OnDisableSquareSelection -= OnDisableSquareSelection;
         GameEvents.OnSelectSquare -= SelectSquare;
+        GameEvents.OnCorrectWord -= CorrectWord;
+}
+
+private void CorrectWord(string word, List<int> squareIndexes)
+{
+    if (_selected && squareIndexes.Contains(_index))
+    {
+        _correct = true;
+        _displayedImage.sprite = _correctLetterData.image;
+    }
 }
 
 public void OnEnableSquareSelection()
