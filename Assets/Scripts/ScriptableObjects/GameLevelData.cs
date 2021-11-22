@@ -12,6 +12,6 @@ public class GameLevelData : ScriptableObject
         public string categoryName;
         public List<BoardData> boardData;
     }
-
+   
     public List<CategoryRecord> data;
 }

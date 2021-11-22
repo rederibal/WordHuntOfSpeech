@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CurrentGameData
   m_EditorClassIdentifier: 
   selectedCategoryName: Noun
-  selectedBoardData: {fileID: 11400000, guid: bf0f57f46c5ca5749861bc32ad58b611, type: 2}
+  selectedBoardData: {fileID: 11400000, guid: deb1efb20e68abd4bade48b4045a56e3, type: 2}

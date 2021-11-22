@@ -18,7 +18,7 @@ public class GameDataSelector : MonoBehaviour
         {
             if (data.categoryName == currentGameData.selectedCategoryName)
             {
-                var boardIndex = 0;
+                var boardIndex = DataSaver.ReadCategoryCurrentIndexValues(currentGameData.selectedCategoryName);
 
                 if (boardIndex < data.boardData.Count)
                 {
@@ -26,8 +26,8 @@ public class GameDataSelector : MonoBehaviour
                 }
                 else
                 {
-                 var randomIndex = Random.Range(0, data.boardData.Count);
-                 currentGameData.selectedBoardData = data.boardData[randomIndex];
+                    var randomIndex = Random.Range(0, data.boardData.Count);
+                    currentGameData.selectedBoardData = data.boardData[randomIndex];
                 }
 
             }

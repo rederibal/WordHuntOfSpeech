@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25af8b36a707b74f89a63e7f0bd1cf7, type: 3}
+  m_Name: Noun8
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - M
+    - L
+    - C
+    - C
+    - G
+    - C
+  - Size: 6
+    Row:
+    - I
+    - A
+    - U
+    - D
+    - H
+    - A
+  - Size: 6
+    Row:
+    - R
+    - P
+    - W
+    - X
+    - F
+    - S
+  - Size: 6
+    Row:
+    - R
+    - T
+    - B
+    - Y
+    - U
+    - T
+  - Size: 6
+    Row:
+    - O
+    - O
+    - B
+    - A
+    - X
+    - L
+  - Size: 6
+    Row:
+    - R
+    - P
+    - G
+    - Q
+    - E
+    - E
+  SearchWords:
+  - Word: MIRROR
+  - Word: LAPTOP
+  - Word: CASTLE

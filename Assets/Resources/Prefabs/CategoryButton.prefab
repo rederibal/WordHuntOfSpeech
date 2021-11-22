@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3621651349831658444}
   - component: {fileID: 2737347879751915876}
   - component: {fileID: 1776891310285998121}
-  - component: {fileID: 511178852677244892}
-  - component: {fileID: 6705117526158569824}
+  - component: {fileID: 8772430275456632864}
+  - component: {fileID: 4314885105657582413}
   m_Layer: 5
   m_Name: CategoryButton
   m_TagString: Untagged
@@ -80,7 +80,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &511178852677244892
+--- !u!114 &8772430275456632864
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6705117526158569824
+--- !u!114 &4314885105657582413
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 98916444756197774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b026b2e97e92ed4098546ffcad34088, type: 3}
+  m_Script: {fileID: 11500000, guid: 13d4e2581f878e64888eab20173ac486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameData: {fileID: 11400000, guid: ee2cc0bd0aa8cb0448c7f1f4cf1cd28c, type: 2}
@@ -369,7 +369,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 / 10
+  m_Text: 1 / 2
 --- !u!1 &3979073397484433046
 GameObject:
   m_ObjectHideFlags: 0

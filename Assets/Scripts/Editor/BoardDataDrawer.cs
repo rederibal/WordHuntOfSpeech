@@ -10,7 +10,7 @@ using UnityEditorInternal;
 [CanEditMultipleObjects]
 [System.Serializable]
 
-public class NewBehaviourScript : Editor
+public class BoardDataDrawer : Editor
 {
   private BoardData GameDataInstance => target as BoardData;
   private ReorderableList _dataList;
