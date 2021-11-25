@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25af8b36a707b74f89a63e7f0bd1cf7, type: 3}
+  m_Name: Verb10
+  m_EditorClassIdentifier: 
+  timeInSeconds: 120
+  Columns: 7
+  Rows: 7
+  Board:
+  - Size: 7
+    Row:
+    - S
+    - M
+    - P
+    - Z
+    - P
+    - V
+    - I
+  - Size: 7
+    Row:
+    - U
+    - L
+    - H
+    - F
+    - E
+    - U
+    - M
+  - Size: 7
+    Row:
+    - R
+    - L
+    - M
+    - A
+    - R
+    - O
+    - A
+  - Size: 7
+    Row:
+    - V
+    - A
+    - L
+    - F
+    - F
+    - S
+    - G
+  - Size: 7
+    Row:
+    - I
+    - J
+    - S
+    - H
+    - O
+    - Z
+    - I
+  - Size: 7
+    Row:
+    - V
+    - Q
+    - O
+    - D
+    - R
+    - N
+    - N
+  - Size: 7
+    Row:
+    - E
+    - E
+    - L
+    - I
+    - M
+    - Z
+    - E
+  SearchWords:
+  - Word: SURVIVE
+  - Word: IMAGINE
+  - Word: PERFORM

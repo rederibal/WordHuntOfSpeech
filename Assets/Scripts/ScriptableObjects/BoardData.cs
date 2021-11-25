@@ -9,7 +9,9 @@ public class BoardData : ScriptableObject
    [System.Serializable]
    public class SearchingWord
     {
-       public string Word;
+        [HideInInspector]
+        public bool Found = false;
+        public string Word;
     }
 
    [System.Serializable]
@@ -48,6 +50,14 @@ public class BoardData : ScriptableObject
     public BoardRow[] Board;
     public List<SearchingWord> SearchWords = new List<SearchingWord>();
     
+    public void ClearData()
+    {
+        foreach (var word in SearchWords)
+        {
+            word.Found = false;
+        }
+    }
+
     public void ClearWithEmptyString()
     {
         for(int i = 0; i < Columns; i++)

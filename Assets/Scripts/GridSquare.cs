@@ -18,6 +18,7 @@ public class GridSquare : MonoBehaviour
     private int _index = -1;
     private bool _correct; 
 
+    private AudioSource _source;
     public void SetIndex(int index)
     {
         _index = index;
@@ -34,6 +35,7 @@ public class GridSquare : MonoBehaviour
         _clicked = false;
         _correct = false;
         _displayedImage = GetComponent<SpriteRenderer>();
+        _source = GetComponent<AudioSource>();
     }
 
      private void OnEnable()
@@ -117,6 +119,9 @@ private void SelectSquare(Vector3 position)
     {
         if (_selected == false && _clicked == true)
         {
+            if(SoundManager.instance.IsSoundFXMuted() == false)
+                _source.Play();
+
             _selected = true;
             GameEvents.CheckSquareMethod(_normalLetterData.letter, gameObject.transform.position, _index);
         }

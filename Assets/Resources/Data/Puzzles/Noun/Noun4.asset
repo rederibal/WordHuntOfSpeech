@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25af8b36a707b74f89a63e7f0bd1cf7, type: 3}
   m_Name: Noun4
   m_EditorClassIdentifier: 
-  timeInSeconds: 0
+  timeInSeconds: 120
   Columns: 5
   Rows: 5
   Board:

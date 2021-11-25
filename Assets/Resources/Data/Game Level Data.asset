@@ -15,13 +15,13 @@ MonoBehaviour:
   data:
   - categoryName: Noun
     boardData:
+    - {fileID: 11400000, guid: deb1efb20e68abd4bade48b4045a56e3, type: 2}
     - {fileID: 11400000, guid: 7fe24cbbd7cc0944e99c768fb5928f82, type: 2}
     - {fileID: 11400000, guid: 873cc0cef10f03048b7efe29751165a1, type: 2}
     - {fileID: 11400000, guid: 1819fc2490520754e854c3b7c14931d4, type: 2}
     - {fileID: 11400000, guid: 7c5651bc6405e1c4b94c7a438337c9bf, type: 2}
     - {fileID: 11400000, guid: 6ed8ce2e2486e784c96a6410f6792072, type: 2}
     - {fileID: 11400000, guid: 3d00d042fa7137f40a0caa48e4ca484f, type: 2}
-    - {fileID: 11400000, guid: 43e865e1904a64746ab19e6635b80029, type: 2}
     - {fileID: 11400000, guid: 43e865e1904a64746ab19e6635b80029, type: 2}
     - {fileID: 11400000, guid: 05ea04b9f5671ee4ebd3143ab0fe844f, type: 2}
     - {fileID: 11400000, guid: cd38ad675493e7d48838e915040694a9, type: 2}
@@ -32,3 +32,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 32dc43f713d9e924ebc13182c6a65e86, type: 2}
     - {fileID: 11400000, guid: a012ec421003f33449661e002e37674b, type: 2}
     - {fileID: 11400000, guid: 7a7f22b4a353d424fb9c6a946cbf4023, type: 2}
+    - {fileID: 11400000, guid: 95c6de6b5bf66864da2c17a4c5817382, type: 2}
+    - {fileID: 11400000, guid: 64736967c5847b64eaf7796152bd984e, type: 2}
+    - {fileID: 11400000, guid: 3daae3abb700bf7498d6c8589203d087, type: 2}
+    - {fileID: 11400000, guid: 9d9a1a41053c4b64bbb6a203864d6ea2, type: 2}
+    - {fileID: 11400000, guid: e52ac745461c79b4da175886f2a4999f, type: 2}
+  - categoryName: Pronoun
+    boardData:
+    - {fileID: 11400000, guid: 6fc0a752382143245ad9d020145352bb, type: 2}
+    - {fileID: 11400000, guid: 2d071908dd24af84591e68e207ea38d2, type: 2}
+    - {fileID: 11400000, guid: 7a53d2cbbd85e0d488fe849bbf2a51e0, type: 2}
+    - {fileID: 11400000, guid: d232df0b29c50114a96b2f9ac03bee4f, type: 2}
+    - {fileID: 11400000, guid: 342188885b6617e4a86ed8f66de27e68, type: 2}

@@ -12,46 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25af8b36a707b74f89a63e7f0bd1cf7, type: 3}
   m_Name: Verb3
   m_EditorClassIdentifier: 
-  timeInSeconds: 0
+  timeInSeconds: 120
   Columns: 5
   Rows: 5
   Board:
   - Size: 5
     Row:
-    - E
+    - C
+    - B
+    - K
+    - S
+    - S
+  - Size: 5
+    Row:
     - R
+    - N
+    - C
     - O
     - N
-    - S
   - Size: 5
     Row:
-    - X
-    - O
     - K
-    - U
+    - I
+    - D
+    - L
     - O
   - Size: 5
     Row:
-    - R
-    - T
-    - R
     - B
-    - L
+    - V
+    - D
+    - V
+    - R
   - Size: 5
     Row:
-    - K
-    - J
+    - P
+    - P
+    - D
     - E
-    - V
-    - V
-  - Size: 5
-    Row:
-    - S
-    - O
-    - L
-    - V
     - E
   SearchWords:
   - Word: SNORE
   - Word: SOLVE
-  - Word: SOW
+  - Word: RIDE

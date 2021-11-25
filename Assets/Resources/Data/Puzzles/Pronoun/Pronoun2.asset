@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25af8b36a707b74f89a63e7f0bd1cf7, type: 3}
+  m_Name: Pronoun2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 120
+  Columns: 5
+  Rows: 5
+  Board:
+  - Size: 5
+    Row:
+    - T
+    - H
+    - E
+    - M
+    - F
+  - Size: 5
+    Row:
+    - M
+    - I
+    - N
+    - E
+    - O
+  - Size: 5
+    Row:
+    - Y
+    - O
+    - U
+    - R
+    - S
+  - Size: 5
+    Row:
+    - M
+    - W
+    - B
+    - O
+    - I
+  - Size: 5
+    Row:
+    - B
+    - Q
+    - G
+    - I
+    - D
+  SearchWords:
+  - Word: THEM
+  - Word: MINE
+  - Word: YOURS

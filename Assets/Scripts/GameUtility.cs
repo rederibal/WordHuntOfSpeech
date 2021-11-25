@@ -10,8 +10,18 @@ public class GameUtility : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void ExitApplication()
+    {
+        Application.Quit();
+    }
+
     public void MuteToggleBackgroundMusic()
     {
         SoundManager.instance.ToggleBackgroundMusic();
+    }
+
+    public void MuteToggleSoundFX()
+    {
+        SoundManager.instance.ToggleSoundFX();
     }
 }
