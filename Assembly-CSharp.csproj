@@ -60,7 +60,9 @@
      <Compile Include="Assets\Scripts\UnlockLevelPopup.cs" />
      <Compile Include="Assets\Scripts\WordsGrid.cs" />
      <Compile Include="Assets\Scripts\GridSquare.cs" />
+     <Compile Include="Assets\Scripts\PanelOpener.cs" />
      <None Include="Assets\License.txt" />
+     <None Include="Assets\Grpahics\Balsamiq sans font\OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:\2020.3.21f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
