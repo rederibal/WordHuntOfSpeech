@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\WinPopup.cs" />
      <Compile Include="Assets\Scripts\CountDownTimer.cs" />
      <Compile Include="Assets\Scripts\SearchingWord.cs" />
+     <Compile Include="Assets\Scripts\SelectPuzzleButtonV2.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\GameUtility.cs" />
@@ -63,7 +64,7 @@
      <Compile Include="Assets\Scripts\UnlockLevelPopup.cs" />
      <Compile Include="Assets\Scripts\WordsGrid.cs" />
      <Compile Include="Assets\Scripts\GridSquare.cs" />
-     <Compile Include="Assets\Scripts\SelectPuzzleButtonV2.cs" />
+     <Compile Include="Assets\Scripts\LoadRandomScene.cs" />
      <None Include="Assets\License.txt" />
      <None Include="Assets\Grpahics\Balsamiq sans font\OFL.txt" />
     <Reference Include="UnityEngine">
