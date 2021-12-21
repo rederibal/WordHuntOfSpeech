@@ -116,8 +116,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesSelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\Developer\GenericProgress.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\UI\PlasticSplitterGUILayout.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\WebApi\UnityPackageBetaEnrollResponse.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\Views\PendingChanges\Dialogs\LaunchDependenciesDialog.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\WebApi\UnityPackageBetaEnrollResponse.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\WebApi\IsCollabProjectMigratedResponse.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\UI\HandleMenuItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.13.5\Editor\PlasticSCM\AssetsUtils\ProjectPath.cs" />
